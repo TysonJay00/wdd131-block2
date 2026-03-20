@@ -19,6 +19,9 @@ header {
     padding: 1rem;
     text-align: center;
     border-bottom: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
 
 body {
@@ -80,7 +83,7 @@ nav a:hover {
 
 
 main {
-    display: grid;
+    
     background: lightgray; 
     max-width: 900px;
     margin: 0 auto;
