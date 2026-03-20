@@ -119,7 +119,7 @@ header h1 {
     display: inline-block;
     width: 24px;
     height: 24px;
-    background-image: url("..images/sun1.svg");
+    background-image: url("../images/sun1.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -160,7 +160,7 @@ section {
         font-size: 1.5rem;
     }
 
-    .weather-box h4 {
+    .weather-box h3 {
         display: flex;
         align-items: center;
         justify-content: flex-start;
