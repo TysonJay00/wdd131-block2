@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131-Dynamic Web Fundamentals-TysonWilde</title>
     <meta name="description" content="This webpage is for the course WDD131 Dynamic Web Fundamentals. My name is Tyson Wilde and this is my webpage. I don't know what it's about yet.">
+    <meta name="author" content="Tyson Wilde">
     <link rel="stylesheet" href="styles/base.css">
     <script src="scripts/getdates.js" defer></script>
-    <link rel ="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/favicon.png">
         
 </head>
 
@@ -29,16 +30,25 @@
     </header>
 
     <main>
-        <h1>Tyson Wilde</h1>
+        <h3>Tyson Wilde</h3>
         <section class="card1">
             <h2>About Me</h2>
-            <img src="images/tysonw.jpg" alt="Photo of Tyson Wilde"> 
+            <picture>
+                <source srcset="images/tysonw.jpg" media="(max-width: 500px)">
+                <source srcset="images/tysonw.jpg" media="(max-width: 1000px)">
+                <img src="images/tysonw.jpg" alt="Photo of Tyson Wilde">
+            </picture> 
             <p>My name is Tyson Wilde. I was born in High Level, Alberta,Canada. I currently live in Lethbridge, Alberta, with my family. My beautiful wife and son. I am currently working at a coal mine in the province, British Columbia. </p>
         </section>
 
         <section class="card2">
             <h2>Lethbridge, Canada</h2>
-            <img src="images/canadaflag.jpg" alt="photo of the Canada flag"> 
+            <picture>
+                <source srcset="images/canadaflag.jpg" media="(max-width: 500px)">
+                <source srcset="images/canadaflag.jpg" media="(max-width: 1000px)">
+                <img src="images/canadaflag.jpg" alt="photo of the Canada flag">
+            </picture>
+             
             <p> Canada is the second largest country in the world and has access to more fresh water than any other country. Canada has a many different biomes such as the rocky mountains, grasslands, tundra, and boreal forest to name a few. </p>
         </section>
 

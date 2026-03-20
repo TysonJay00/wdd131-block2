@@ -33,6 +33,15 @@ h2 {
 
 }
 
+h3 {
+    background: grey;
+    padding: 2rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    font-size: 2rem;
+    text-align: center;
+
+} 
+
 
 
 nav {
