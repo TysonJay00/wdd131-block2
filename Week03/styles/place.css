@@ -201,15 +201,7 @@ section::after {
         position: relative;
     }
 
-    .weather-box h3::before {
-        content: "";
-        display: inline-block;
-        width: 24px;
-        height: 24px;
-        background-image: url("../images/sun1.svg");
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
+   
 
     
     .overlay {
