@@ -100,9 +100,9 @@ section {
 }
 
 .navigation {
-    display: none;
-    flex-direction: column;
-    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .navigation.open {
