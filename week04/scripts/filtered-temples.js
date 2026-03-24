@@ -145,14 +145,14 @@ function createTempleCard(filteredTemples) {
 let currentFilter = null; 
 createTempleCard(temples);
 
-const homeButton = document.querySelector('button[title="Home"]');
+const homeButton = document.querySelector('a[title="Home"]');
 
 homeButton.addEventListener("click", () => {
   createTempleCard(temples);
 })
 
 
-const oldButton = document.querySelector('button[title="Old"]');
+const oldButton = document.querySelector('a[title="Old"]');
 
 	
 oldButton.addEventListener("click", () => {
@@ -167,7 +167,7 @@ oldButton.addEventListener("click", () => {
 
 
 
-const newButton = document.querySelector('button[title="New"]');
+const newButton = document.querySelector('a[title="New"]');
 
 	
 newButton.addEventListener("click", () => {
@@ -182,7 +182,7 @@ newButton.addEventListener("click", () => {
 
 
 
-const largeButton = document.querySelector('button[title="Large"]');
+const largeButton = document.querySelector('a[title="Large"]');
 
 	
 largeButton.addEventListener("click", (e) => {
@@ -199,7 +199,7 @@ largeButton.addEventListener("click", (e) => {
 
 
 
-const smallButton = document.querySelector('button[title="Small"]');
+const smallButton = document.querySelector('a[title="Small"]');
 
 	
 smallButton.addEventListener("click", (e) => {
