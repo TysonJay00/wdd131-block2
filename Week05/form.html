@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product Review</title>
     <meta name="description" content="This site is a product review practice page for wdd131 week05.">
     <meta name="author" content="Tyson Wilde">
 
@@ -11,14 +11,18 @@
     <script src="js/form.js" defer></script>
 </head>
 <body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    
     <main>
-    <h1>Product Review</h1>
+   
         <form method="get" action="review.html" class="fo1">
         <fieldset>
             <legend>Product Name*</legend>
                 <label for="product">Choose a Product</label>
                 <select id="product" name="product" required>
-                    <option>Select a Product...</option>
+                    <option value="" selected disabled>Select a Product...</option>
                 </select>
         </fieldset>
         
